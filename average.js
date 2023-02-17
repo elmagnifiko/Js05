@@ -9,3 +9,4 @@ function average(notes) {
   }
   
   console.log(average(notes));  
+module.exports = average;
