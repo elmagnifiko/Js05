@@ -1,5 +1,5 @@
-const notes = [20, 12, 8, 9];
-function average(notes) {
+function average() {
+  const notes = [20, 12, 8, 9];
     let somme = 0;
     for (let i = 0; i < notes.length; i++) {
       somme += notes[i];
@@ -8,5 +8,6 @@ function average(notes) {
     return moyenne;
   }
   
-  console.log(average(notes));  
-module.exports = average;
+  console.log(average());
+
+  module.exports = average;
