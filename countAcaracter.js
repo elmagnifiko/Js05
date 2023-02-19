@@ -1,5 +1,6 @@
-let sentence = "Bonjour, chers candidat comment vous allez aujourd'hui";
-function countAcaracter(sentence){
+
+function countAcaracter(){
+ let sentence = "Bonjour, chers candidat comment vous allez aujourd'hui";
     let cas = 0;
 for(var i = 0; i < sentence.length; i++)
         {
@@ -8,6 +9,6 @@ for(var i = 0; i < sentence.length; i++)
         }
         return cas;
 }
-console.log("Le nombre d'occurrences de 'a' est :" , countAcaracter(sentence));
+console.log("Le nombre d'occurrences de 'a' est :" , countAcaracter());
 
 module.exports = countAcaracter;
